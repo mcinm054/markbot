@@ -1,5 +1,5 @@
 # markbot
 
-###pip install slackclient
+### pip install slackclient
 
-###python markbot.py
+### python markbot.py
