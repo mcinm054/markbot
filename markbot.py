@@ -45,6 +45,8 @@ def handle_command(command, channel, user):
 	# This is where you start to implement more commands!
 	if command.startswith("msg"):
 		response = command[3:]
+	elif "steve" in command:
+		response = "steve is a piece of shit"
 	else:
 		response = "<@%s> %s" % (user, random.choice(insults).encode('ascii', 'ignore'))
 
